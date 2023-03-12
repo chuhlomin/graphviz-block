@@ -28,8 +28,6 @@ export default function GrpahvizFileBlock(props: FileBlockProps) {
   }
 
   return (
-    <Box p={4}>
-      <svg className="graphviz" dangerouslySetInnerHTML={{ __html: svg }} />
-    </Box>
+    <Box p={4} dangerouslySetInnerHTML={{ __html: svg }} />
   );
 }
