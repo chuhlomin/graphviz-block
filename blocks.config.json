@@ -5,7 +5,7 @@
     "title": "Graphivz File Block",
     "description": "A block that renders Graphivz file",
     "entry": "blocks/graphviz-block/index.tsx",
-    "matches": ["*.dot"],
+    "matches": ["*.dot", "*.gv", "*.gv.txt"],
     "example_path": "https://github.com/facebook/react/blob/main/packages/react-dom/index.js"
   }
 ]
