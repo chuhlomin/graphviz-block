@@ -2,7 +2,7 @@
   {
     "type": "file",
     "id": "graphviz-block",
-    "title": "Graphivz File Block",
+    "title": "Graphivz Block",
     "description": "A block that renders Graphivz file",
     "entry": "blocks/graphviz-block/index.tsx",
     "matches": ["*.dot", "*.gv", "*.gv.txt"],
