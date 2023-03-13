@@ -1,5 +1,11 @@
 # Graphviz-Block
 
+This is a Github Block for rendering Graphviz graphs.
+
+See examples in [graphviz-block-demo](https://github.com/chuhlomin/graphviz-block-demo/)
+
+[GitHub Blocks Technical Preview](https://blocks.githubnext.com).
+
 ## Local development
 
 ```bash
