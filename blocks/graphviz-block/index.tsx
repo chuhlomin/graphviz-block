@@ -2,6 +2,7 @@ import { FileBlockProps } from "@githubnext/blocks";
 import { Box } from "@primer/react";
 import graphviz from "graphviz-wasm";
 import { useState, useEffect } from "react";
+import "./style.css";
 
 export default function GrpahvizFileBlock(props: FileBlockProps) {
   const { content } = props;
@@ -28,6 +29,6 @@ export default function GrpahvizFileBlock(props: FileBlockProps) {
   }
 
   return (
-    <Box p={4} dangerouslySetInnerHTML={{ __html: svg }} />
+    <Box p={4} dangerouslySetInnerHTML={{ __html: svg }} className="graphviz-block" />
   );
 }
