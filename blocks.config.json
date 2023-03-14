@@ -2,8 +2,8 @@
   {
     "type": "file",
     "id": "graphviz-block",
-    "title": "Graphivz Block",
-    "description": "A block that renders Graphivz file",
+    "title": "Graphviz Block",
+    "description": "A block that renders Graphviz file",
     "entry": "blocks/graphviz-block/index.tsx",
     "matches": ["*.dot", "*.gv", "*.gv.txt"],
     "example_path": "https://github.com/chuhlomin/graphviz-block-demo/blob/main/cluster.gv.txt"
