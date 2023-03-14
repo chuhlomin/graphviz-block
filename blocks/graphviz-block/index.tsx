@@ -13,18 +13,19 @@ export default function GrpahvizFileBlock(props: FileBlockProps) {
   useEffect(() => {
     graphviz.loadWASM()
       .then(() => {
-        console.log("loaded wasm");
         setSvg(graphviz.layout(content));
       })
       .catch((error) => {
-        console.error(error);
-        setError('error');
+        setError(error.message);
       })
   }, []);
 
   if (error !== "") {
     return (
-        <h1>Error</h1>
+      <Box p={4} className="graphviz-block error">
+        <strong>Failed to render graphviz file: </strong>
+        {error}
+      </Box>
     );
   }
 
